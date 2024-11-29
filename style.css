@@ -1,0 +1,115 @@
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+  }
+  .slots {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .slot {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+    border-radius: 10px;
+    font-size: 50px;
+    color: #fff;
+    border: 2px solid #00ff00;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  #result {
+    font-size: 24px;
+    margin: 20px;
+    color: #ff0000;
+  }
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1a1a1a, #333);
+    margin: 0;
+    color: white;
+  }
+  
+  .slot-machine {
+    text-align: center;
+    background: #444;
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  #message {
+    margin-bottom: 20px;
+    color: lime;
+    font-size: 20px;
+  }
+  
+  .slots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .slot {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border: 2px solid lime;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: yellow;
+    animation: spin 0.5s ease-in-out;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotateX(0); }
+    100% { transform: rotateX(360deg); }
+  }
+  
+  button {
+    background: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #8b00ff;
+  }
+  
+  #score {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  
